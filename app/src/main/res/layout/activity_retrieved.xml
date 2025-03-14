@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".retrieved">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Vehicle owner name:"
+        android:id="@+id/txtname"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0EF118"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/retname"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Vehicle number:"
+        android:id="@+id/txtno"
+        android:layout_below="@id/txtname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0EF118"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/retname"
+        android:id="@+id/etno"
+        android:textAlignment="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Vehicle price:"
+        android:id="@+id/txtprice"
+        android:layout_below="@id/txtno"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0EF118"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/etno"
+        android:id="@+id/rd"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Location:"
+        android:id="@+id/loc"
+        android:layout_below="@id/rd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0EF118"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rd"
+        android:id="@+id/rg"
+        android:textAlignment="center"
+
+        />
+
+
+
+
+</RelativeLayout>

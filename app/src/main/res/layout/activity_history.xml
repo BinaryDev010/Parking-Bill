@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".history">
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/search_bg"
+        android:drawableLeft="@drawable/searchsss"
+        android:drawablePadding="20dp"
+        android:hint="search with vehicle number"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:inputType="textCapCharacters"
+        android:backgroundTint="@color/black_shade_1"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="search"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/search"
+        android:id="@+id/searchdata"
+        android:background="@drawable/buttonback"
+        android:layout_marginTop="20dp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchdata"
+        android:layout_marginTop="30dp"
+        android:id="@+id/listView">
+    </ListView>
+
+
+</RelativeLayout>

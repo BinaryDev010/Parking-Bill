@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789285956556",
+    "project_id": "parkingbook-1ae52",
+    "storage_bucket": "parkingbook-1ae52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789285956556:android:ee4c4407b001c830b74b69",
+        "android_client_info": {
+          "package_name": "com.RgpAppsBuilt.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789285956556-sj39r63dji3bnes8v27m6iv23t1f0k3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmdmjNpPmdov4UTiPKr4J6YjMAvnnAmlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789285956556-sj39r63dji3bnes8v27m6iv23t1f0k3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

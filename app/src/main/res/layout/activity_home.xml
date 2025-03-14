@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".HomeActivity">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/tilak"-->
+<!--        android:layout_width="71dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        android:background="@drawable/vishnutilak"-->
+<!--        android:layout_marginLeft="170dp"/>-->
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/idIVLogo"
+        android:background="@drawable/search_bg"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Print receipt"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/idIVLogo"
+        android:id="@+id/filldetail"
+        android:background="@drawable/buttonback"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="History"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/filldetail"
+        android:id="@+id/btnhisto"
+        android:background="@drawable/buttonback"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Settings"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/btnhisto"
+        android:id="@+id/btnsetti"
+        android:background="@drawable/buttonback"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

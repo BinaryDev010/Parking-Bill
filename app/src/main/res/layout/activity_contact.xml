@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/ourteam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="OUR TEAM"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\tRohan G Palankar \n +917022335233"
+        android:layout_below="@id/ourteam"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:id="@+id/rgp"
+        />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\tMeghraj \n +918088250085"
+        android:layout_below="@id/rgp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+
+        android:id="@+id/meg"
+        />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\tAustin \n +919482029412"
+        android:layout_below="@id/meg"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:id="@+id/aust"
+        />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_below="@+id/aust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="CONTACT US"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-Mail:\t\trgpapps70@gmail.com \n \n Mobile: +917022335233"
+        android:layout_below="@id/contact"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:id="@+id/mailcon"
+        />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: Long press on mobile number/Mail id to contact"
+        android:layout_below="@id/mailcon"
+        android:textColor="#EC0909"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:id="@+id/note"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2023 ALL COPY RIGHTS RESERVED "
+        android:layout_below="@id/note"
+        android:textColor="#57ED06"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:id="@+id/cpyright"
+        />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------------------------------------------------------------------------------------------------------------------------\nApplication Developed By RGPAPPSBUILT.INC"
+        android:layout_below="@id/cpyright"
+        android:textColor="#A19D9D"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:id="@+id/dev"
+        />
+
+
+
+
+</RelativeLayout>
